@@ -1,11 +1,12 @@
 {
   "name": "final-assignment",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "dev",
     "build": "build",
-    "start": "start",
+    "start": "node server.js",
     "lint": "lint",
     "test": "jest"
   },
