@@ -1,12 +1,11 @@
 const express = require('express');
-
 const app = express();
+const port = 3000;
 
 app.get('/', (req, res) => {
   res.send('Welcome to our chat app');
 });
 
-const port = 3000;
 app.listen(port, () => {
   console.log(`Server is runing on port ${port}`);
 });
